@@ -1,0 +1,15 @@
+[package]
+name = "naive-rsa"
+authors = ["Justin Woodring"]
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+rand = "0.8"
+num-bigint = { version = "0.4", features = ["rand", "serde"] }
+log = "0.4"
+simple_logger = "2.2.0"
+base64 = "0.13.0"
+asn1-rs = { version = "0.5.1", features = ["bigint"] }
+serde = { version = "1.0.139", features = ["derive"] }

@@ -1,0 +1,12 @@
+/*
+    let key = generate_keypair(512);
+
+    let mut file = File::create("private-rsa-key.der").unwrap();
+    file.write_all(&key.to_pkcs1_der_vec())
+        .expect("Failed to write file!");
+
+    let mut file = File::create("private-rsa-key.pem").unwrap();
+    write!(file, "{}", &key.to_pkcs1_pem_string()).unwrap();
+
+    let mut file = File::create("public-rsa-key.pem").unwrap();
+    write!(file, "{}", RSAPublicKey::from(&key).to_pkcs1_pem_string()).unwrap();*/
